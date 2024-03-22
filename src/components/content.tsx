@@ -41,7 +41,7 @@ function Content() {
 
       <div className=" mx-4 mt-12 flex flex-col gap-4 lg:mx-12">
         <span className="self-center text-lg font-bold text-white-50 underline">
-          O CAMINHO
+          O CONCEITO
         </span>
         <div className="relative flex flex-col items-center">
           <Image
