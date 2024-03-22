@@ -3,10 +3,7 @@ import { useEffect, useState } from 'react';
 import { AnimatePresence, motion, useAnimationControls } from 'framer-motion';
 import { TiThMenu } from 'react-icons/ti';
 
-interface UserMenuProps {
-  name?: string;
-}
-export const UserMenu = ({ name }: UserMenuProps) => {
+export const UserMenu = () => {
   const [open, setOpen] = useState(false);
   const controls = useAnimationControls();
   useEffect(() => {
