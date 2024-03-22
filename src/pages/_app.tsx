@@ -1,5 +1,3 @@
-import { SEOComponent } from '@/components/seo';
-
 import '@/shared/styles/globals.css';
 import type { AppProps } from 'next/app';
 import { Inter } from 'next/font/google';
@@ -12,7 +10,6 @@ const inter = Inter({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <SEOComponent />
       <main className={inter.className}>
         <Component {...pageProps} />
       </main>
